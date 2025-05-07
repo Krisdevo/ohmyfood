@@ -1,0 +1,58 @@
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #000000;
+    padding: 10px 0;
+    position: relative;
+    height: 4rem;
+    align-items: center;
+
+    a{
+        
+        background: none;
+        border: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: color 0.3s;
+        
+    }
+
+    a:hover{
+        color: #ffcc00;
+    }
+
+    .sub-menu{
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: 100%;
+        left: 55%;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 10px;
+        z-index: 1000;
+        background-color: #000000;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+
+        a{
+            display: block;
+            padding: 10px 0;
+    
+
+        }
+        &.active{
+            visibility: visible;
+            opacity: 1;
+        }
+
+
+        
+    }
+
+
+
+
+
+  }

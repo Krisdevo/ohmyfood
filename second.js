@@ -42,6 +42,7 @@ function setupCounter(element){
     nav.appendChild(secondLink);
     nav.appendChild(thirstLink);
     nav.appendChild(networksButton);
+    app.appendChild(nav);
 
     const subMenu = createAndStyleElement('div', 'sub-menu', `
             <a href="https://twitter.com" target ="blank">Twitter</a>
@@ -93,7 +94,7 @@ function setupCounter(element){
 
     //ajout de la navbar, contenare et footer
     
-     app.appendChild(nav);
+
      app.appendChild(mainContent);
      app.appendChild(footer);
 
