@@ -1,0 +1,40 @@
+@import "../utils/colors";
+@import "../utils/font";
+@import "../utils/mixin";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+header{
+
+    @include center-col;
+    width: 100%;
+    height: 10rem;
+
+    .location{
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        height: 2rem;
+        background: lightgray;
+        box-shadow: inset 0 3px 4px 0;
+    }
+
+}
