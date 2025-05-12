@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   height: 100%;
   width: 100%;
 }
@@ -22,13 +23,18 @@ header {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 10rem;
+  height: 9rem;
+}
+header .main-logo {
+  height: 6rem;
+  align-content: center;
 }
 header .location {
+  align-content: center;
   text-align: center;
   width: 100%;
   padding: 10px;
-  height: 2rem;
+  height: 3rem;
   background: lightgray;
   box-shadow: inset 0 3px 4px 0;
 }
@@ -59,12 +65,14 @@ header .location {
 }
 
 .explore {
+  margin-top: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  height: 45%;
-  border: 1px;
+  background-color: #F4F4F4;
+  height: 30rem;
+  justify-content: center;
 }
 .explore h1 {
   font-family: "Inter";
@@ -112,11 +120,12 @@ header .location {
 
 .rules {
   width: 100%;
-  height: 50vh;
+  height: 40rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  padding-bottom: 20px;
 }
 .rules h3 {
   font-family: "Roboto", sans-serif;

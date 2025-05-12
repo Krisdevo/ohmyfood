@@ -17,6 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     height: 100%;
     width: 100%;
     
@@ -26,13 +27,19 @@ header{
 
     @include center-col;
     width: 100%;
-    height: 10rem;
+    height: 9rem;
+
+    .main-logo{
+        height: 6rem;
+        align-content: center;
+    }
 
     .location{
+        align-content: center;
         text-align: center;
         width: 100%;
         padding: 10px;
-        height: 2rem;
+        height: 3rem;
         background: lightgray;
         box-shadow: inset 0 3px 4px 0;
     }

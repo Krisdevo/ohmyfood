@@ -6,10 +6,12 @@
 
 .explore{ 
 
-@include center-col;
+margin-top: 0;
 width: 100%;
-height: 45%;
-border: 1px;
+@include center-col;
+background-color: #F4F4F4;
+height: 30rem;
+justify-content: center;
 
 
 
