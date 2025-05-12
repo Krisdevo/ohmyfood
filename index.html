@@ -2,7 +2,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="styles/partials/main.css">
+	<link rel="stylesheet" type="text/css" href="./partials/main.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Italiana&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -10,7 +10,82 @@
 </head>
 
 <body>
-    <div id="app"></div>
-    <script  src="second.js"></script>
+	<header>
+		<div class="main-logo"><img alt="logo du site" src="./Ressources/images/logo/ohmyfood.png" width="200"></div>
+		<div class="location">Paris, Belleville</div>
+	</header>
+	<section id="main-container">
+		<div class="explore">
+			<h1>Réservez le contenu qui vous convient. </h1>
+			<h3> Découvrez des restaurants d'exceptions.</h3>
+			<button>Explorer nos restaurants.</button>
+		</div>
+		<div class="rules">
+			<h3>Fonctionnement</h3>
+			<div class="rule-items"> 
+				<p class="number">1</p>
+				<div><svg width="25" height="25" viewBox="0 0 467 734" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M466.667 100C466.667 44.7717 421.897 0 366.667 0H100C44.7717 0 0 44.7717 0 100V633.333C0 688.563 44.7717 733.333 100 733.333H366.667C421.897 733.333 466.667 688.563 466.667 633.333V100ZM400 100C400 81.5907 385.077 66.6667 366.667 66.6667H100C81.5907 66.6667 66.6667 81.5907 66.6667 100V466.667H400V100ZM66.6667 633.333V533.333H400V633.333C400 651.743 385.077 666.667 366.667 666.667H100C81.5907 666.667 66.6667 651.743 66.6667 633.333Z" fill="#0F0F0F"/>
+</svg>
+
+
+				</div>
+				<p>Choisissez un restaurant</p></div>
+			<div class="rule-items">
+				<p class="number">2</p>
+				<div><svg width="25" height="25" viewBox="0 0 600 468" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M33.3333 34H566.667M33.3333 234H566.667M33.3333 434H566.667" stroke="black" stroke-width="66.6667" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+				</div>
+				<p> Composez votre menu</p></div>
+			<div class="rule-items violet">
+				<p class="number">3</p>
+				<div>
+					<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 10V25H8.92857V18.3333C8.92857 16.4924 10.5276 15 12.5 15C14.4724 15 16.0714 16.4924 16.0714 18.3333V25H25V10L12.5 0L0 10Z" fill="black"/>
+</svg>
+
+			</div>
+				<p>Dégustez un restaurant</p></div>
+		</div>
+	</section>
+
+	<div class="cookie-container">
+        <svg class="logo-cookie" width="250" height="250" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M461.25 283.75L492.5 51.25C462.5 43.75 432.5 25 400 25C367.5 25 337.5 43.75 306.25 52.5C275 60 240 58.75 212.5 75C185 91.25 167.5 122.5 145 145C122.5 167.5 91.25 185 75 212.5C58.75 240 60 275 51.25 306.25C43.75 337.5 25 367.5 25 400C25 432.5 43.75 462.5 52.5 493.75C60 525 58.75 560 75 587.5C91.25 615 122.5 632.5 145 655C167.5 677.5 183.75 708.75 212.5 725C240 741.25 275 740 306.25 748.75C337.5 756.25 367.5 775 400 775C432.5 775 462.5 756.25 493.75 747.5C525 738.75 560 740 587.5 723.75C615 707.5 632.5 676.25 655 653.75C677.5 631.25 708.75 615 725 586.25C741.25 558.75 740 523.75 748.75 492.5C756.25 462.5 775 432.5 775 400C775 367.5 748.75 298.75 748.75 298.75L461.25 283.75Z" fill="#DDA85F"/>
+<path d="M742.5 280C730 283.75 712.5 282.5 693.75 275C667.5 265 651.25 243.75 646.25 218.75C633.75 222.5 603.75 218.75 583.75 206.25C553.75 187.5 547.5 135 547.5 135C513.75 125 488.75 85 492.5 51.25C465 43.75 430 45 400 45C370 45 342.5 62.5 315 70C286.25 77.5 253.75 76.25 228.75 91.25C203.75 106.25 187.5 135 167.5 155C146.25 176.25 117.5 191.25 103.75 216.25C88.75 241.25 90 273.75 82.5 302.5C75 330 57.5 357.5 57.5 387.5C57.5 417.5 75 445 82.5 472.5C90 501.25 88.75 533.75 103.75 558.75C118.75 583.75 147.5 600 167.5 620C188.75 641.25 203.75 670 228.75 683.75C253.75 698.75 286.25 697.5 315 705C342.5 712.5 370 730 400 730C430 730 457.5 712.5 485 705C513.75 697.5 546.25 698.75 571.25 683.75C596.25 668.75 612.5 640 632.5 620C653.75 598.75 682.5 583.75 696.25 558.75C711.25 533.75 710 501.25 717.5 472.5C725 445 755 422.5 758.75 392.5C768.75 343.75 743.75 288.75 742.5 280Z" fill="#F2CB7D"/>
+<path d="M626.25 135L608.75 152.5L592.5 135L608.75 118.75L626.25 135Z" fill="#DDA85F"/>
+<path d="M697.5 222.5L690 231.25L681.25 222.5L690 213.75L697.5 222.5Z" fill="#DDA85F"/>
+<path d="M635 165L626.25 173.75L617.5 165L626.25 156.25L635 165Z" fill="#DDA85F"/>
+<path d="M557.5 88.75L548.75 97.5L540 88.75L548.75 80L557.5 88.75Z" fill="#DDA85F"/>
+<path d="M715 253.75L706.25 262.5L697.5 253.75L706.25 245L715 253.75Z" fill="#DDA85F"/>
+<path d="M722.5 222.5L713.75 231.25L705 222.5L713.75 213.75L722.5 222.5Z" fill="#DDA85F"/>
+<path d="M147.5 257.5C135 278.75 153.75 317.5 178.75 328.75C215 343.75 236.25 346.25 258.75 307.5C266.25 293.75 276.25 257.5 272.5 248.75C267.5 236.25 246.25 211.25 232.5 211.25C193.75 212.5 156.25 242.5 147.5 257.5Z" fill="#6D4934"/>
+<path d="M153.75 257.5C145 272.5 167.5 317.5 197.5 313.75C238.75 308.75 235 223.75 217.5 223.75C187.5 223.75 160 246.25 153.75 257.5Z" fill="#A37F6A"/>
+<path d="M564.999 488.749C582.499 483.749 594.999 452.499 587.499 433.749C576.249 404.999 564.999 392.499 532.499 401.249C521.249 404.999 494.999 418.749 492.499 424.999C488.749 434.999 486.249 459.999 493.749 467.499C514.999 488.749 552.499 492.499 564.999 488.749Z" fill="#6D4934"/>
+<path d="M547.501 458.749C561.251 454.999 582.501 412.499 560.001 409.999C521.251 403.749 491.251 422.499 495.001 443.749C498.751 464.999 537.501 461.249 547.501 458.749Z" fill="#A37F6A"/>
+<path d="M311.251 556.251C307.501 541.251 280.001 530.001 262.501 537.501C237.501 547.501 226.251 556.251 235.001 585.001C237.501 595.001 250.001 617.501 256.251 618.751C265.001 622.501 286.251 623.751 292.501 617.501C311.251 600.001 313.751 567.501 311.251 556.251Z" fill="#6D4934"/>
+<path d="M290 545C287.5 533.75 235 550 240 570C250 603.75 250 608.75 260 607.5C278.75 602.5 291.25 553.75 290 545Z" fill="#A37F6A"/>
+<path d="M638.751 318.749C623.751 322.499 612.501 349.999 620.001 367.499C630.001 392.499 653.751 396.249 680.001 382.499C702.501 371.249 703.751 331.249 697.501 323.749C678.751 304.999 650.001 316.249 638.751 318.749Z" fill="#6D4934"/>
+<path d="M632.5 332.5C625 341.25 618.75 376.25 637.5 371.25C671.25 361.25 695 327.5 680 322.5C661.25 316.25 641.25 322.5 632.5 332.5Z" fill="#A37F6A"/>
+<path d="M284.25 201.4L309 176.65L333.75 201.4L309 226.15L284.25 201.4Z" fill="#6D4934"/>
+<path d="M183.824 418.537L208.562 393.787L233.312 418.525L208.574 443.275L183.824 418.537Z" fill="#DDA85F"/>
+<path d="M433.725 560.137L458.475 535.387L483.225 560.137L458.475 584.887L433.725 560.137Z" fill="#DDA85F"/>
+<path d="M400.475 491.113L434.062 457.525L467.65 491.113L434.062 524.7L400.475 491.113Z" fill="#DDA85F"/>
+<path d="M308.699 122.837L342.287 89.25L375.874 122.837L342.287 156.425L308.699 122.837Z" fill="#DDA85F"/>
+<path d="M514.023 579.338L538.773 554.588L563.523 579.338L538.773 604.088L514.023 579.338Z" fill="#6D4934"/>
+<path d="M613.449 440.187L638.199 415.438L662.949 440.187L638.199 464.937L613.449 440.187Z" fill="#6D4934"/>
+<path d="M522.648 307.963L535.023 295.588L547.398 307.963L535.023 320.338L522.648 307.963Z" fill="#6D4934"/>
+<path d="M171.574 478.326L183.949 465.951L196.324 478.326L183.949 490.701L171.574 478.326Z" fill="#6D4934"/>
+        </svg>
+        <div class="text">
+            <h2 class="cookie-title">Politique de confidentialité</h2>
+            <p class="cookie-subtitle"> La présente politique de confidentialité a pour but d'informer les utilisateurs</p>
+            <button>J'ai compris!</button>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="app.js"></script>
 </body>
 </html>
